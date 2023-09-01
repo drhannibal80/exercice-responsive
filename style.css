@@ -1,0 +1,53 @@
+div {
+    float: left;
+    height: 80px;
+}
+.green {
+    background-color: #008000;
+    width: 75%;
+}
+.blue {
+    background-color: #0000ff;
+    width: 25%;
+}
+.red {
+    background-color: #ff0000;
+    height: 160px;
+    width: 33%;
+}
+.orange {
+    background-color: #ffa500;
+    width: 34%;
+}
+.grey {
+    background-color: #808080;
+    width: 33%;  
+}
+.yellow {
+    background-color: #ffff00;
+    width: 22%; 
+}
+.bluelight {
+    background-color: #5f9ea0;
+    width: 23%;        
+}
+.marron {
+    background-color: #800000;  
+    width: 22%;     
+}
+.gris {
+    background-color:black;
+    height: 300px;
+    width: 100%;      
+}
+@media all and (max-width: 900px) {
+    div {float: none;width: 100% !important;}   
+}
+@media all and (min-width:768px) and (max-width:992px) {
+    .red {display: none !important;}
+    .blue {background-color: blueviolet !important;}  
+}
+@media all and (max-width:992px)  {
+    div p {display: none !important;}
+    
+}
